@@ -1,0 +1,10 @@
+{
+  "resourceName": "dynamo2859ef52",
+  "tableName": "Jordan23",
+  "partitionKey": {
+    "fieldName": "shoedetails",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

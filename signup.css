@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('C:\\Users\\Leoval Cabato\\OneDrive\\Pictures\\jordan-logo-red-outline-text-a07xmfm10o2i6eix.jpg');
+    background-size: contain; /* Fit the background image to the screen without stretching */
+    background-repeat: repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.signup-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 12px;
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

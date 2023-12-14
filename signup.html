@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Signup - Jordan Emporium</title>
+</head>
+<body>
+    <div class="signup-container">
+        <h2>Create an Account</h2>
+        <form id="signup-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="submit">Sign Up</button>
+        </form>
+
+        <!-- Toggle button to switch between sign up and login -->
+        <button id="toggle-btn">Already have an account? Login</button>
+
+        <!-- Login form initially hidden -->
+        <form id="login-form" style="display: none;">
+            <h2>Login</h2>
+            <label for="login-username">Username:</label>
+            <input type="text" id="login-username" name="login-username" required>
+
+            <label for="login-password">Password:</label>
+            <input type="password" id="login-password" name="login-password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+#shoes-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    gap: 20px; /* Gap between items */
+    padding: 20px;
+}
+
+.shoe-card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.shoe-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.shoe-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.shoe-price {
+    color: #e44d26;
+    font-size: 16px;
+    margin-top: 5px;
+}

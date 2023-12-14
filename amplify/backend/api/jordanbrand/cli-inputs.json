@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "paths": {
+    "/shoes": {
+      "name": "/shoes",
+      "lambdaFunction": "jordanemporium23702bb71b",
+      "permissions": {
+        "setting": "private",
+        "auth": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  }
+}
